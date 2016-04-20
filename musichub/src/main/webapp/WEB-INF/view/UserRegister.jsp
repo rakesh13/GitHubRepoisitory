@@ -3,9 +3,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<jsp:include page="Header.jsp" />
 <title>Registration Page</title>
-<link rel="stylesheet" href="resources/css/bootstrap.min.css">
+
 
 </head>
 <body>
@@ -62,11 +62,6 @@
     </div> 
   </div>
 </div>
- <!-- Javascript -->
-        <script src="resources/js/jquery-1.11.1.min.js"></script>
-        <script src="resources/js/bootstrap.min.js"></script>
-        <script src="resources/js/jquery.backstretch.min.js"></script>
-        <script src="resources/js/retina-1.1.0.min.js"></script>
-        <script src="resources/js/scripts.js"></script>
+<jsp:include page="Footer.jsp" />
 </body>
 </html>

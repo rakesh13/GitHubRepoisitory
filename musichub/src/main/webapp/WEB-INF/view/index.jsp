@@ -2,13 +2,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link href="<c:url value="/resources/css/bootstrap.min.css" />" rel="stylesheet">
+<jsp:include page="Header.jsp" />
 </head>
 <body>
 
- 	<script src="<c:url value="/resources/js/jquery.js" />"></script>
-    <!-- Bootstrap Core JavaScript -->
-    <script src="<c:url value="/resources/js/bootstrap.min.js" />"></script>
+
 
     <!-- Script to Activate the Carousel -->
     <script>
@@ -72,16 +70,16 @@ Welcome to my First Bootstrap web site.
 
  <div class="row">
   <div class="col-md-4">
-    <a href="<c:url value="/resources/Images/IMG_1003.JPG" />" class="thumbnail">
+    <a href="newProduct" class="thumbnail">
        
-      <img src="<c:url value="/resources/Images/IMG_1003.JPG" />" alt="Image1" style="width:150px;height:150px">
+      <img src="<c:url value="/resources/Images/guitar.jpg" />" alt="Image1" style="width:150px;height:150px">
       <center><p>Flowervase</p></center>
     </a>
   </div>
   <div class="col-md-4">
-    <a href="<c:url value="/resources/Images/IMG_1004.JPG" />" class="thumbnail">
+    <a href="piano" class="thumbnail">
       
-      <img src="<c:url value="/resources/Images/IMG_1004.JPG" />" alt="Image2" style="width:150px;height:150px">
+      <img src="<c:url value="/resources/Images/instru1.jpg" />" alt="Image2" style="width:150px;height:150px">
       <center><p>Flowervase1".</p></center>
     </a>
   </div>
@@ -93,5 +91,7 @@ Welcome to my First Bootstrap web site.
     </a>
   </div>
 </div>
+
 </body>
+<jsp:include page="Footer.jsp" />
 </html>

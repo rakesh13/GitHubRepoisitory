@@ -1,1 +1,5 @@
-demo\MyControllerAnnotation.class
+demo\controller\MyControllerAnnotation.class
+demo\dao\ProductDAO.class
+demo\model\Product.class
+demo\dao\ProductService.class
+demo\dao\ProductDAOImpl.class
